@@ -79,6 +79,11 @@ input{
     border-radius: 10px;
 }
 
+.boton:active{
+    background-color: #054d9e;
+    transform: translateY(2px);
+}
+
 .enlace{
     color: #D1D5DB;
     font-size: 11px;
