@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.inicio{
+    color: white;
+    font-size: 64px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+}
+
+.inicio{
+    position: absolute;
+    left: 86px;
+}
+
+.cuerpo{
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      background: linear-gradient(180deg, #000018 0%, #001F3F 100%);
+}
+
+label{
+    color: #D1D5DB;
+    font-family: Poppins;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+}
+
+input{
+    background-color: #4b515c;
+    width: 200px;
+    height: 20px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.Usuario{
+    position: absolute;
+    top: 250px;
+    left: 65px;
+}
+
+.Contraseña{
+    position: absolute;
+    top: 330px;
+    left: 65px;
+}
+
+.cuadro{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #111010;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    position: relative;
+    top: 220px;
+    left: 38px;
+}
