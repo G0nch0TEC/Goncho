@@ -12,20 +12,24 @@
 
 .inicio{
     position: absolute;
+    top: 20px;
     left: 86px;
 }
 
 .cuerpo{
       margin: 0;
+      padding: 0;
       height: 100vh;
       display: flex;
       background: linear-gradient(180deg, #000018 0%, #001F3F 100%);
+      justify-content: center;
+      align-items: center;
 }
 
 label{
     color: #D1D5DB;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: 1.6px;
 }
 
@@ -40,33 +44,20 @@ input{
 
 .Usuario{
     position: absolute;
-    top: 250px;
-    left: 65px;
+    top: 20px;
+    left: 22px;
 }
 
 .Contraseña{
     position: absolute;
-    top: 330px;
-    left: 65px;
-}
-
-.cuadro{
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    background-color: #111010;
-    width: 300px;
-    height: 300px;
-    align-items: center;
-    position: relative;
-    top: 220px;
-    left: 38px;
+    top: 82px;
+    left: 22px;
 }
 
 .boton{
     position: absolute;
-    bottom: 200px;
-    right: 70px;
+    top: 210px;
+    right: 35px;
     width: 110px;
     height: 22px;
 }
@@ -90,8 +81,8 @@ input{
     font-size: 11px;
     font-family: Poppins;
     position: absolute;
-    bottom: 260px;
-    left: 68px;
+    top: 140px;
+    left: 22px;
 }
 
 #man{
@@ -104,4 +95,16 @@ input{
     position: absolute;
     right: 205px;
     bottom: 5px;
+}
+
+form{
+    display: absolute;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #111010;
+    width: 300px;
+    height: 265px;
+    align-items: center;
+    position: relative;
+    top: 10px;
 }
