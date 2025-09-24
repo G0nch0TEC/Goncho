@@ -30,6 +30,7 @@ label{
 }
 
 input{
+    padding-left: 25px;
     background-color: #4b515c;
     width: 200px;
     height: 20px;
@@ -91,4 +92,16 @@ input{
     position: absolute;
     bottom: 260px;
     left: 68px;
+}
+
+#man{
+    position: absolute;
+    right: 205px;
+    bottom: 5px;
+}
+
+#candado{
+    position: absolute;
+    right: 205px;
+    bottom: 5px;
 }
