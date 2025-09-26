@@ -80,3 +80,146 @@ input::placeholder{
     left: 20px;
     font-family: Poppins;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --colorPrincipal: #2F00FF;
+}
+body{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* view height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-imagen {
+    display: none; /* OCULTAMOS EL ELEMENTO */
+}
+
+.login-form h2 {
+    color: var(--BotonIngresar, #2F00FF);
+    text-align: center; /* Centrar el texto */
+    font-family: Poppins; /* Tipografia */
+    font-size: 32px; /* Tamaño del texto */
+    font-style: normal; /* Darle estilo a la letra*/
+    font-weight: 700;  /* Darle color grosor al texto */
+    line-height: normal;  /* La distancia que tiene el parrafo*/
+    letter-spacing: 1.6px; /* Espacio entre las letras*/
+    text-transform: uppercase; /*Transformar el texto ya sea Mayus, Minus*/
+}
+
+.login-form {
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+}
+
+.perfil-imagen {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.perfil-imagen img {
+    width: 157px;
+    height: 151px;
+    border-radius: 500px;
+    object-fit: cover;
+}
+
+.input-group {
+    margin-bottom: 15px; /* separacion de 15px */
+}
+
+.input-group label {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input{
+    width: 90%; /* Ancho del 90%*/
+    padding: 12px; /* buttom. top. right. left */
+    border: 1px solid #ddd; 
+    border-radius: 50px; /* Border de 50px*/
+    font-size: 14px; /*  Tamaño de texto*/ 
+    outline: none;
+    transition: 0.3s; /* Agregamos transicion al input*/
+}
+.pass-group{
+    position: relative; /* Posición relativo */
+}
+
+.eyes-password{
+    position: absolute;
+    right: 10px; /* Un espacio a la derecha  de 10px*/
+    top: 45%; /* Un espacio arriba del 70% */
+    cursor: pointer; /* EL ICONO DE LA MANO */
+    font-size: 18px; /* Tamaño del icono */
+    color: #555; /*Color del icono */
+}
+
+.btn{
+    width: 100%;
+    background-color: var(--colorPrincipal);
+    border: none; /* sin lineas de los borders*/
+    border-radius: 50px; 
+    color: #fff; /* Texto del color blanco */
+    cursor: pointer; /*Icono de la mano*/
+    font-size: 16px; /*tamaño del texto*/
+    padding: 12px; /* top,right,left,buttom */
+}
+
+/* ==== DISPOSITIVO PARA WEB ==== */
+@media (min-width: 768px){
+    .login-imagen{
+        display: none; /* DESAPARECE LA IMAGEN */
+    }
+}
+
+
+/* ==== DISPOSITIVO PARA WEB ==== */
+@media (min-width: 1024px){
+    .login-imagen{
+        display: block; /* APARECE LA IMAGEN */
+    }
+    .login-section{
+        display: flex; /* Manipular las Columnas */
+        height: 100vh; /* 100 view height */
+    }
+    /*COLUMNA IZQUIERDA: IMAGEN */
+    .login-imagen{
+        flex: 1;
+        background-color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-imagen img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .login-form{
+        flex:1;
+        background-color: white;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 0 15px 15px 0;
+        max-width: 15%;
+    }
+}
