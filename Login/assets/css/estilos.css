@@ -133,7 +133,7 @@ form{
 
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 body{
-      background-size: cover;
+      background-size: 150% 110%;
       display: flex;
       padding-right: 40px;
       justify-content: center;
@@ -162,7 +162,7 @@ input{
 
 @media screen and (min-width: 481px) and (max-width: 768px){
 body{
-      background-size: cover;
+      background-size: 160% 120%;
       display: flex;
       padding-right: 50px;
       justify-content: center;
@@ -172,7 +172,7 @@ body{
 
 @media screen and (max-width: 480px){
 body{
-      background-size: cover;
+      background-size: 200% 130%;
       padding-right: 40px;
       display: flex;
       justify-content: center;
