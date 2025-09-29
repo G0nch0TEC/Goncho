@@ -33,7 +33,7 @@ body{
 .login-box{
       margin: 0;
       padding-left: 0;
-      height: 90vh;
+      height: 80vh;
       width: 65vh;
       background: linear-gradient(180deg, #000018 0%, #001F3F 100%);
       border-radius: 20px;
