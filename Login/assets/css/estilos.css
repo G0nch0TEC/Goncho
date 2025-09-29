@@ -132,6 +132,25 @@ input{
     top: 60px;
 }
 
+/* Cuadro de Registro */
+
+.input2{
+    color: white;
+    padding-left: 35px;
+    background-color: #4b515c;
+    width: 280px;
+    height: 25px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.label2{
+    color: #D1D5DB;
+    font-family: Poppins;
+    font-size: 14px;
+    letter-spacing: 1.6px;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1279px) {
 body{
       background-size: 150% 110%;
