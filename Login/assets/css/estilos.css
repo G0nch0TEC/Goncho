@@ -21,8 +21,8 @@
 }
 
 
-body{
-      background-size: cover;
+body{ 
+      background-size: 120% 120%;  
       display: flex;
       padding-left: 50px;
       padding-top: 25px;
