@@ -120,7 +120,7 @@ input{
 }
 
 form{
-    display: absolute;
+    display: flex;
     flex-direction: column;
     border-radius: 20px;
     background-color: #111010;
