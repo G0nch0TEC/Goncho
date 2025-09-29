@@ -1,0 +1,85 @@
+footer {
+  background-color: #000;               /* fondo negro */
+  color: rgb(114, 22, 189);           /* texto blanco */
+}
+
+/* LETRA de "Películas Populares"*/
+.mb-4{
+    color: #c5c5c5;
+}
+/*  CARDS*/
+.card.bg-dark.text-white.border-0 {
+  background-color:#000000 !important;             /* un negro más piola */
+  border-radius: 12px;                              /* esquinas más redondeadas */
+  transition: 0.98s;  
+ 
+          
+}
+.card.bg-dark.text-white.border-0:hover{
+    transform: scale(1.1);
+
+}
+/* LETRAS DEL LOS CARD*/
+.card-title {
+  color: rgb(255, 255, 255);           /* color texto */
+  font-size: 1.2rem;                    /* tamaño */
+                      /* negrita */
+}
+/*  BOTON "ver Ya*/
+.btn-danger{
+    background-color: #25007c;
+    border-color:black ;
+    transition: 0.9s;
+}
+/*  BOTON "ver Ya*/
+.btn-danger:hover{
+    transform: scale(1.1);
+}
+/* COlOR DEL FONDO DE LOS CARDS Y EL FOOTER*/
+.my-5{
+    background-color: rgb(0, 0, 0);
+    transition: 0.9s;
+    
+}
+
+
+/* COlOR DEL MENU NAVBAR*/
+
+
+
+/* COlOR DEL FONDO DE LA PAGINA*/
+body{
+    background-color: #000000;
+}
+
+/* COlOR DE LAS FLECHAS*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) opacity(0.2); /* Blancas pero casi transparentes */
+}
+
+
+
+/* Todas las cards de películas tendrán el mismo ancho */
+.card {
+  width: 14rem;
+}
+
+/* tamaño las imágenes dentro de las cards */
+.card img {
+  height: 250px; /*la altura */
+  object-fit: cover; /* recorta para que no se deformen */
+}
+
+.card {
+  border: 2px solid #444 !important;  /* El !important gana sobre border-0 */
+  border-radius: 10px;               /* opcional, para esquinas redondeadas */
+}
+
+@media (max-width: 360px) {
+.card {
+        width: 95%;      /* casi todo el ancho de la pantalla */
+        height: auto;    /* se adapta al contenido */
+        margin: 10px auto; /* centrado */
+    }
+}

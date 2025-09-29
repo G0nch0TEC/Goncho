@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series - Mi Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="deportes.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR (misma que en index) -->
+    <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Menu
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item active" href="#">Perfil</a></li>
+                    <li><a class="dropdown-item" href="#">Configuracion</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Acerca de</a></li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="series.html">Series</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="deportes.html">Deportes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tv.html">TV en Directo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CARRUSEL DEPORTES -->
+    <div id="carouselSeries" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+
+            <!-- serie 1 -->
+            <div class="carousel-item active">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Features/v4/57/16/e7/5716e7f6-4937-3e25-71e1-3b99ae34ff46/47574a06-bf40-454b-8ced-6aedad35bdd0.png/1200x675sr.webp"
+                    class="d-block w-100" alt="Breaking Bad">
+                <div class="carousel-caption">
+                    <h2>DEPORTES</h2>
+                    <br>
+                    <a href="#" class="btn btn-ver">Ver ahora</a>
+                </div>
+            </div>
+
+            <!-- serie 2 -->
+            <div class="carousel-item">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/hCq_fOW6jzKgMtbNgDOUIQ/1200x675sr.webp"
+                    class="d-block w-100" alt="">
+                <div class="carousel-caption">
+                    <h2>New York </h2>
+                    <h2>vs </h2>
+                    <br>
+                    <h2>New York City </h2>
+                    <br>
+                    <a href="#" class="btn btn-ver">Ver ahora</a>
+                </div>
+            </div>
+
+            <!-- serie 3 -->
+            <div class="carousel-item">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/OqOk2NsUj-T4jMSRfOlHqw/1200x675sr.webp"
+                    class="d-block w-100" alt="Prison Break">
+                <div class="carousel-caption">
+                    <h2>New England</h2>
+                    <h2>vs</h2>
+                    <br>
+                    <h2>Atlanta</h2>
+                    <br>
+                    <a href="#" class="btn btn-ver">Ver ahora</a>
+                </div>
+            </div>
+
+            <!-- serie 4 -->
+            <div class="carousel-item">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/ZLt8hhAFKOx2NCZmKk2s5g/1200x675sr.webp"
+                    class="d-block w-100" alt="Mr Robot">
+                <div class="carousel-caption">
+                    <h2>ST.LUIS</h2>
+                    <h2>vs</h2>
+                    <br>
+                    <h2>LAFC</h2>
+                    <br>
+                    <a href="#" class="btn btn-ver">Ver ahora</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- CONTROLES -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSeries" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSeries" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!--ESTOS SON LOS CARDS DE DEPORTES-->
+
+    <!--SECCION_1_partidos-->
+    <div class="container my-5">
+        <h3 class="mb-4">Futbol en Vivo</h3>
+        <div class="d-flex gap-4 flex-wrap">
+
+            <!-- Card 1 -->
+            <div class="card" style="width: 18rem;">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/GBjbc7VO-TsNONP5-ORZwg/340x221Sports.TVAPrM04.webp?imgEffectLogoLeft=GBjbc7VO-TsNONP5-ORZwg&rtl=false&colorRight=F5B6CD&colorLeft=AE132A&imgEffectLogoRight=fPfWU7_0GAYTqAxEA2UX1g&style=m"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Toronto vs. Miami</h5>
+                    <p>6:30 pm</p>
+                    <a href="#" class="btn btn-primary">VER</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card" style="width: 18rem;">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/EeCHZjYuAt7qU_KZvk0hRg/340x221Sports.TVAPrM04.webp?imgEffectLogoLeft=EeCHZjYuAt7qU_KZvk0hRg&rtl=false&colorRight=003DA6&colorLeft=0085CF&imgEffectLogoRight=oFLEPNLkQk3lMq0RsdQfBA&style=m"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Charlotte vs. Montereal</h5>
+                    <p>9:00 pm</p>
+                    <a href="#" class="btn btn-primary">VER</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card" style="width: 18rem;">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/bz0x-YVg5EQ6ZnbhNFLgsQ/340x221Sports.TVAPrM04.webp?imgEffectLogoLeft=bz0x-YVg5EQ6ZnbhNFLgsQ&rtl=false&colorRight=9FD2FF&colorLeft=D71B38&imgEffectLogoRight=1ep2CNk0GNmoCnH4_RZ8wQ&style=m"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">New York vs. New York City</h5>
+                    <p>10:30 am</p>
+                    <a href="#" class="btn btn-primary">VER</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--SECCION_2_partidos-->
+    <div class="container my-5">
+        <h3 class="mb-4">La Proxima Semana</h3>
+        <div class="d-flex gap-4 flex-wrap">
+
+            <!-- Card 1 -->
+            <div class="card" style="width: 18rem;">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/054Rt8pmB4SA9LiqrhB2Jg/340x221Sports.TVAPrM04.webp?imgEffectLogoLeft=054Rt8pmB4SA9LiqrhB2Jg&rtl=false&colorRight=9D2235&colorLeft=0A2240&imgEffectLogoRight=d6U0-AroyEyn1K7zL7Z_bg&style=m"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">New England vs. Atlanta</h5>
+                    <p>Lunes 12:30 pm</p>
+                    <a href="#" class="btn btn-primary">VER</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card" style="width: 18rem;">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/TF8RFnansqvKc2dQykZf1Q/340x221Sports.TVAPrM04.webp?imgEffectLogoLeft=TF8RFnansqvKc2dQykZf1Q&rtl=false&colorRight=041C2C&colorLeft=000000&imgEffectLogoRight=iXIxevYDAkD1eA4nIOcs9Q&style=m"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">D.C vs. Philadelphia</h5>
+                    <p>Jueves 7:30 am</p>
+                    <a href="#" class="btn btn-primary">VER</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card" style="width: 18rem;">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/3E-uqL1yQLu8A0lXIXjdsA/340x221Sports.TVAPrM04.webp?imgEffectLogoLeft=3E-uqL1yQLu8A0lXIXjdsA&rtl=false&colorRight=000000&colorLeft=FF0000&imgEffectLogoRight=c-Q5tkhZXB6SDr-gNGFgEw&style=m"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Chicago vs. Culumbus</h5>
+                    <p>Sabado 12:45 pm</p>
+                    <a href="#" class="btn btn-primary">VER</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--SECCION_3_partidos-->
+    <div class="container my-5">
+        <h3 class="mb-4">Jugados</h3>
+        <div class="d-flex gap-4 flex-wrap">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/LXdtAgsFTppgIi7bdUChUw/340x221Sports.TVAPrM04.webp?imgEffectLogoLeft=LXdtAgsFTppgIi7bdUChUw&colorRight=000000&rtl=false&colorLeft=e80a4d&imgEffectLogoRight=rNrQuDny5iiTxp7_CGq74w&style=m"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">St.Luis vs. LAFC</h5>
+                    <p>Resumen</p>
+                    <a href="#" class="btn btn-primary">VER</a>
+                </div>
+            </div>
+
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/zmhMReO6B9qg6BroocH15w/340x221Sports.TVAPrM04.webp?imgEffectLogoLeft=zmhMReO6B9qg6BroocH15w&colorRight=00B140&rtl=false&colorLeft=001E61&imgEffectLogoRight=Kj3JcvFIDBst-Koz6E5ieQ&style=m"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Salt Lake vs. Austin</h5>
+                    <p>Resumen</p>
+                    <a href="#" class="btn btn-primary">VER</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/3snDh61DqRjCu8RWad-zHA/340x221Sports.TVAPrM04.webp?imgEffectLogoLeft=3snDh61DqRjCu8RWad-zHA&rtl=false&colorRight=9bcde4&colorLeft=8A2432&imgEffectLogoRight=gBzEBHuy800AMDC-xLTIgQ&style=m"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Colorado vs. Minnesota</h5>
+                    <p>Resumen</p>
+                    <a href="#" class="btn btn-primary">VER</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

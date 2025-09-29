@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Series</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="series_estilos.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+    <div class="container-fluid">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item active" href="#">Perfil</a></li>
+          <li><a class="dropdown-item" href="#">Configuracion</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Acerca de</a></li>
+        </ul>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="series.html">Series</a></li>
+          <li class="nav-item"><a class="nav-link" href="../deportes.html">Deportes</a></li>
+          <li class="nav-item"><a class="nav-link" href="../tv.html">TV en Directo</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CARRUSEL SERIES -->
+  <div id="carouselSeries" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+
+      <!-- serie 1 -->
+      <div class="carousel-item active">
+        <img
+          src="https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/7d/03/d4/7d03d4cc-115b-b43c-f695-47d0b4c1674e/mzl.nllnhddk.png/1200x675sr.webp"
+          class="d-block w-100" alt="Breaking Bad">
+        <div class="carousel-caption">
+          <h2>Breaking Bad</h2>
+          <p>La historia de un profesor convertido en narcotraficante.</p>
+          <a href="#" class="btn btn-ver">Ver ahora</a>
+        </div>
+      </div>
+
+      <!-- serie 2 -->
+      <div class="carousel-item">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Oj3JrLva45oQVve5lm9NzQ/1200x675sr.webp" class="d-block w-100"
+          alt="Better Call Saul">
+        <div class="carousel-caption">
+          <h2>Better Call Saul </h2>
+          <p>El origen del abogado más ingenioso de Albuquerque.</p>
+          <a href="#" class="btn btn-ver">Ver ahora</a>
+        </div>
+      </div>
+
+      <!-- serie 3 -->
+      <div class="carousel-item">
+        <img
+          src="https://occ-0-2470-3934.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABe4wD6F7ZCrinNB9HuqczELNHUsSyr5E_dNJc4P-Mz8Zx3Zs9Goz54SgmAphY4_gPUjPyYZGMkOwo4qKd2xPQf-EAvVxU7hAIUOo.webp?r=23d"
+          class="d-block w-100" alt="Prison Break">
+        <div class="carousel-caption">
+          <h2>Prison Break</h2>
+          <p>Un escape épico de la cárcel más segura.</p>
+          <a href="#" class="btn btn-ver">Ver ahora</a>
+        </div>
+      </div>
+
+      <!-- serie 4 -->
+      <div class="carousel-item">
+        <img
+          src="https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/29/49/b4/2949b4f1-33f2-7159-e0e3-7480d2807b25/mzl.pwzjhihe.png/1200x675sr.webp"
+          class="d-block w-100" alt="Mr Robot">
+        <div class="carousel-caption">
+          <h2>Mr. Robot</h2>
+          <p>Un hacker lucha contra los poderes corporativos.</p>
+          <a href="#" class="btn btn-ver">Ver ahora</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CONTROLES -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSeries" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselSeries" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- SECCION DE SERIES RECOMDENDADAS -->
+  <div class="container my-5">
+    <h3 class="mb-4">Series Recomendadas</h3>
+    <div id="carouselPeliculas2" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- ITEM 1 -->
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center gap-3">
+            <div class="card bg-dark text-white border-0" style="width: 14rem;">
+              <img src="https://img.rgstatic.com/content/show/7c4ccb30-d1fd-4c7d-b17a-e3afeee1f938/poster-342.webp"
+                class="card-img-top" alt="Bad Monkey">
+              <div class="card-body">
+                <h5 class="card-title">SOPRANOS</h5>
+                <a href="#" class="btn btn-danger">Ver ya</a>
+              </div>
+            </div>
+            <div class="card bg-dark text-white border-0" style="width: 14rem;">
+              <img
+                src="https://occ-0-2470-3934.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABbdC6mq2SQi_X7I0ZvWbSuuWR-AtmNZObFOeE8YL51WQNNXSVrkf4Ci46D47pj6Tw5wgn30uOPd04hoB9mBByUXmIG2kEcDWREHN.webp?r=3b4"
+                class="card-img-top" alt="The Studio">
+              <div class="card-body">
+                <h5 class="card-title">Narcos</h5>
+                <a href="#" class="btn btn-danger">Ver ya</a>
+              </div>
+            </div>
+            <div class="card bg-dark text-white border-0" style="width: 14rem;">
+              <img
+                src="https://occ-0-2470-3934.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABdU3YXOKd-Timls-IdZIGPLKlYtaUKxhqoVtBqkWgAJB0UBW7VYFAuh8Fc2Ygropy1a2D1pkPkW6iATI1rIzCMSWHt_QI9je6JT3.webp?r=e97"
+                class="card-img-top" alt="Sherlock">
+              <div class="card-body">
+                <h5 class="card-title">Ozark</h5>
+                <a href="#" class="btn btn-danger">Ver ya</a>
+              </div>
+            </div>
+            <div class="card bg-dark text-white border-0" style="width: 14rem;">
+              <img
+                src="https://occ-0-2470-3934.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABe1NEUdRjNKPnwYYwc9t1pg-j3zqTkcikEV5QvLGB3pF_3sACAmK331K44BxqxWT5BITefFSFWNLxljFKGaDMuKpG5UqysMcPITz.webp?r=060"
+                class="card-img-top" alt="Shrinking">
+              <div class="card-body">
+                <h5 class="card-title">Peaky Blinders</h5>
+                <a href="#" class="btn btn-danger">Ver ya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ITEM 2 -->
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center gap-3">
+            <div class="card bg-dark text-white border-0" style="width: 14rem;">
+              <img src="https://is1-ssl.mzstatic.com/image/thumb/zW6Os_LfNl34j5RxAbJArA/1200x675sr.webp"
+                class="card-img-top" alt="SILO">
+              <div class="card-body">
+                <h5 class="card-title">Black bird</h5>
+                <a href="#" class="btn btn-danger">Ver ya</a>
+              </div>
+            </div>
+            <div class="card bg-dark text-white border-0" style="width: 14rem;">
+              <img src="https://is1-ssl.mzstatic.com/image/thumb/XsPLJPFj6PVqZlBmEfQVsQ/1200x675sr.webp"
+                class="card-img-top" alt="Pluribus">
+              <div class="card-body">
+                <h5 class="card-title">HIJACK</h5>
+                <a href="#" class="btn btn-danger">Ver ya</a>
+              </div>
+            </div>
+            <div class="card bg-dark text-white border-0" style="width: 14rem;">
+              <img src="https://is1-ssl.mzstatic.com/image/thumb/sWbO9RKGr81f6-iTFF9d4g/1200x675sr.webp"
+                class="card-img-top" alt="Criminal Record">
+              <div class="card-body">
+                <h5 class="card-title">Severance</h5>
+                <a href="#" class="btn btn-danger">Ver ya</a>
+              </div>
+            </div>
+            <div class="card bg-dark text-white border-0" style="width: 14rem;">
+              <img src="https://is1-ssl.mzstatic.com/image/thumb/8tZXIVmGubplrBRmZfc_fw/1200x675sr.webp"
+                class="card-img-top" alt="Stick">
+              <div class="card-body">
+                <h5 class="card-title">ted lasso</h5>
+                <a href="#" class="btn btn-danger">Ver ya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPeliculas2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselPeliculas2" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

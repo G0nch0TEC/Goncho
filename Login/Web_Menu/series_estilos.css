@@ -1,0 +1,75 @@
+/* BOTON VER */
+.btn-ver{
+    background-color: #b02a37;
+    color: #ffffff;
+    transition: 0.98s;
+}
+.btn-ver:hover,
+.btn-ver:focus {
+  background-color: #b02a37 !important; /* rojo más oscuro */
+  border-color: #b02a37 !important;
+  color: #fff !important;
+}
+.btn-ver:hover{
+    transform: scale(1.1);
+}
+/* FECLAS DE LOS CAROUSEL */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) opacity(0.2); /* Blancas pero casi transparentes */
+}
+/* FONDO DE LA PAGINA*/
+body{
+    background-color: black;
+}
+
+
+/* Carrusel grande de Series*/
+#carouselSeries .carousel-item img {
+  height: 100vh;        /* pantalla completa */
+  object-fit: cover;    /* rellena recortando */
+}
+
+/* Carrusel de Películas Recomendadas (cards pequeñas) */
+#carouselPeliculas2 .carousel-item img {
+  height: 250px;        /* tamaño fijo */
+  object-fit: cover;    /* mantiene proporción */
+}
+/* COLOR DEL FONDO DE LOS CARDS */
+.card.bg-dark.text-white.border-0 {
+  background-color:#000000 !important;             /* un negro más piola */
+  border-radius: 12px;                              /* esquinas más redondeadas */
+  transition: 0.98s;  
+ 
+          
+}
+/* EFECTO DE LOS CARDS */
+.card.bg-dark.text-white.border-0:hover{
+    transform: scale(1.1);
+
+}
+
+/*  BOTON "ver Ya*/
+.btn-danger{
+    background-color: #25007c;
+    border-color:black ;
+    transition: 0.9s;
+}
+.btn-danger:hover{
+    transform: scale(1.1);
+}
+/* BORDES DE LOS CARDS */
+.card {
+  border: 2px solid #444 !important;  /* El !important gana sobre border-0 */
+  border-radius: 10px;               /* opcional, para esquinas redondeadas */
+}
+/*LETRAS DEL CAROUSEL*/
+.carousel-caption h2 {
+  font-size: 70px; /* tamaño del título */
+  font-weight: bold;
+  color: #fff; /* blanco para que se note */
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.8); /* sombra para resaltar */
+}
+.mb-4{
+  color: #c5c5c5;
+}

@@ -1,0 +1,18 @@
+/* FONDO DE LA PAGINA*/
+body{
+    background-color: rgb(0, 0, 0);
+}
+/*LOS CARDS*/
+.card{
+    transition: 0.98s;
+    border: none;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    
+}
+/* LETRAS DE LAS SECCIONES */
+.mb-4{
+    color:#c5c5c5;
+}

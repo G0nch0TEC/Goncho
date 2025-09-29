@@ -1,0 +1,77 @@
+/* Carrusel*/
+#carouselSeries .carousel-item img {
+  height: 100vh;        /* pantalla completa */
+  object-fit: cover;    /* rellena recortando */
+}
+carousel-caption {
+    font-size: 100px;
+}
+
+/* LETRAS DEL CAROUSEL DEPORTES */
+.carousel-caption h2 {
+  font-size: 70px; /* tamaño del título */
+  font-weight: bold;
+  color: #c5c5c5; /* blanco para que se note */
+  text-shadow: 3px 3px 15px rgba(0,0,0,0.8); /* sombra para resaltar */
+
+}
+
+/* boton VER YA */
+.btn-ver{
+    background-color: #24128a;
+    color: #c5c5c5;
+    transition: 0.98s;
+    font-weight:600;
+}
+
+.btn-ver:hover,
+.btn-ver:focus {
+  background-color: #3c128a !important; /* rojo más oscuro */
+  border:none !important;
+  color: #fff !important;
+  transform: scale(1.1);
+
+}
+
+/* FONDO DE LA PAGINA*/ 
+body{
+    background-color: black;
+}
+
+/*LOS CARDS*/ 
+.card{
+    background-color: black;
+    border-color: #444;
+    transition: 0.98s;
+    
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+/*EL BOTON "ver ahora"*/ 
+.btn-primary{
+    background-color:#24128a;
+    border: none;
+    transition: 0.98s;
+}
+
+.btn-primary:focus{
+    background-color:#3c128a;
+}
+.btn-primary:hover{
+    transform: scale(1.1);
+}
+/* COLOR DE LAS LETRAS DE LOS CARDS*/ 
+.card-title{
+    color: #fff;
+}
+/*COLOR DE LAS LETRAS DE LAS SECCIONES*/ 
+.mb-4{
+    color: #c5c5c5;
+}
+/* FECLAS DE LOS CAROUSEL */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) opacity(0.2); /* Blancas pero casi transparentes */
+}
