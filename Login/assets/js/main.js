@@ -1,15 +1,11 @@
 document.getElementById('IniciarSesion').addEventListener('submit', function(event){
     event.preventDefault(); 
-    const username = document.getElementById('user').event;
-    const password = document.getElementById('contraseña').event;
-    const fail = document.getElementById('blocke');
+    const username = document.getElementById('user').value;
+    const password = document.getElementById('contraseña').value;
 
-    const correctUser = "Gonzalo";
-    const correctPass = "1234";
-
-    if (username === correctUser && password === correctPass) {
+    if (username === "Gonzalo" && password === "1234") {
         window.location.href="Web_Menu/index.html";
     } else {
-        fail.style.display = "block";
+        
     }
 });
