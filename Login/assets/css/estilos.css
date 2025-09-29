@@ -52,17 +52,13 @@ label{
 }
 
 input{
+    color: white;
     padding-left: 35px;
     background-color: #4b515c;
     width: 280px;
     height: 25px;
     border-color: transparent;
     border-radius: 10px;
-}
-
-.error{
-    border-color: red;
-    background-color: #ffe6e6;
 }
 
 .Usuario{
