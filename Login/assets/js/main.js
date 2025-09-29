@@ -6,5 +6,8 @@ document.getElementById('IniciarSesion').addEventListener('submit', function(eve
     if (username === "Gonzalo" && password === "1234") {
         window.location.href="Web_Menu/index.html";
     } else {
+        alert("Contraseña o Usuario Incorrecto")
+        interes1.value = "";
+        interes2.value = "";
     }
 });
