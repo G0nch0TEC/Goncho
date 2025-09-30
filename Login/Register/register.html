@@ -9,25 +9,61 @@
 <body background="image/star-wars.jpg">
         <div class="register-box">
             <div class="registrar">
-                <p id="create">Crea una Cuenta</p>
+                <p id="create">Crea una Cuenta<br></p>
+                <p id="create2">Es rápido y fácil.</p>
             </div>
             <form id="registrate">
                 <div class="Nombre">
-                    <input type="text" class="input2" id="interes1" placeholder="Nombre">
+                    <input type="text" id="interes1" placeholder="Nombre">
                 </div>
                 <div class="Apellido">
-                    <input type="text" class="input2" id="interes2" placeholder="Apellido">
+                    <input type="text" id="interes2" placeholder="Apellido">
                 </div>
-                <div class="usuario2">
-                    <input type="text" class="input2" id="interes3" placeholder="Usuario">
+                <div class="usuario">
+                    <input type="text" id="interes3" placeholder="Usuario">
                 </div>
                 <div class="Correo">
-                    <input type="text" class="input2" id="interes4" placeholder="Numero o Correo">
+                    <input type="text" id="interes4" placeholder="Numero o Correo">
                 </div>
-                <div class="Pass1">
-                    <input type="password" class="input2" id="interes5" placeholder="Contraseña Nueva">
+                <div class="Pass">
+                    <input type="password" id="interes5" placeholder="Contraseña Nueva">
                 </div>
-                <button type="submit" class="botonReg">REGISTRAR</button>
+                <select name="fecha" id="dia">
+                    <option value="">DIA</option>
+                </select>
+                <select name="Mes" id="mes">
+                    <option value="">MES</option>
+                    <option value="1">En</option>
+                    <option value="2">Feb</option>
+                    <option value="3">Mar</option>
+                    <option value="4">Ab</option>
+                    <option value="5">May</option>
+                    <option value="6">Jun</option>
+                    <option value="7">Jul</option>
+                    <option value="8">Ago</option>
+                    <option value="9">Sep</option>
+                    <option value="10">Oct</option>
+                    <option value="11">Nov</option>
+                    <option value="12">Dic</option>
+                </select>
+                <select name="año" id="Año">
+                    <option value="">AÑO</option>
+                </select>
+            <span class="padre">
+                <span class="sex">
+                    <label for="mujer" class="label2">MUJER
+                        <input type="radio" class="int"> 
+                    </label>
+                    <Label for="hombre" class="label2">HOMBRE
+                        <input type="radio" class="int">
+                    </Label>
+                    <label for="machete" class="label2" id="machete">MACHETE
+                        <input type="radio" class="int">
+                    </label>
+                </span>
+            </span>
+                <button type="submit" class="botonReg">REGISTRARTE</button>
+                <a id="enlace">¿Ya tienes una cuenta?</a>
             </form>
         </div>  
 <script src="js/mine.js"></script>

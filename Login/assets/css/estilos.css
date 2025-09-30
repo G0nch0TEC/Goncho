@@ -197,5 +197,9 @@ input{
     left: 85px;
     bottom: 50px;
 }
+
+#login{
+    font-size: 36px;
+}
 }
 
