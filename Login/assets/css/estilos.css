@@ -104,6 +104,22 @@ input{
     left: 22px;
 }
 
+a.enlace2{
+    color: #D1D5DB;
+    text-decoration: none; 
+    font-size: 14px;
+    font-family: Poppins;
+    position: absolute;
+    bottom: 10px;
+}
+a.enlace2:visited {
+  color: #eaecf0;
+}
+
+a.enlace2:hover{
+  color: #8492af;
+}
+
 #man{
     position: absolute;
     left: 10px;
