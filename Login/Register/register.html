@@ -15,20 +15,21 @@
             </div>
             <form id="registrate">
                 <div class="Nombre">
-                    <input type="text" id="interes1" placeholder="Nombre">
+                    <input type="text" id="interes1" placeholder="Nombre" required>
                 </div>
                 <div class="Apellido">
-                    <input type="text" id="interes2" placeholder="Apellido">
+                    <input type="text" id="interes2" placeholder="Apellido" required>
                 </div>
                 <div class="usuario">
-                    <input type="text" id="interes3" placeholder="Usuario">
+                    <input type="text" id="interes3" placeholder="Usuario" required>
                 </div>
                 <div class="Correo">
-                    <input type="text" id="interes4" placeholder="Numero o Correo">
+                    <input type="email" id="interes4" placeholder="Numero o Correo" required>
                 </div>
                 <div class="Pass">
-                    <input type="password" id="interes5" placeholder="Contraseña Nueva">
+                    <input type="password" id="interes5" placeholder="Contraseña Nueva" required>
                 </div>
+                <p id="p1">Fecha de nacimiento</p>
                 <select name="fecha" id="dia">
                     <option value="">DIA</option>
                 </select>
@@ -50,6 +51,7 @@
                 <select name="año" id="Año">
                     <option value="">AÑO</option>
                 </select>
+            <p id="p2">Género</p>
             <span class="padre">
                 <span class="sex">
                     <label for="mujer" class="label2">MUJER

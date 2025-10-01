@@ -34,7 +34,10 @@ body{
     height: 40px;
     width: 160px;
 }
-
+.botonReg:active{
+    background-color: #054d9e;
+    transform: translateY(2px);
+}
 #create{
     color: white;
     font-size: 32px;
@@ -79,6 +82,26 @@ body{
     top: auto;
 }
 
+#p1{
+    position: absolute;
+    color: white;
+    letter-spacing: 1.8px;
+    font-family: Poppins;
+    font-size: 12px;
+    left: 15px;
+    top: 55px;
+}
+
+#p2{
+    position: absolute;
+    color: white;
+    letter-spacing: 1.8px;
+    font-family: Poppins;
+    font-size: 12px;
+    left: 15px;
+    top: 120px;
+}
+
 input{
     color: white;
     background-color: #4b515c;
@@ -116,7 +139,7 @@ input::placeholder{
 
 .usuario{
     position: absolute;
-    bottom: 290px;
+    bottom: 320px;
     left: 15px;
 }
 #interes3{
@@ -127,7 +150,7 @@ input::placeholder{
 
 .Correo{
     position: absolute;
-    bottom: 230px;
+    bottom: 250px;
     left: 15px;
 }
 #interes4{
@@ -138,7 +161,7 @@ input::placeholder{
 
 .Pass{
     position: absolute;
-    bottom: 170px;
+    bottom: 180px;
     left: 15px;
 }
 #interes5{
@@ -172,7 +195,7 @@ input::placeholder{
     position: absolute;
     height: 30px;
     width: 120px;
-    top: 80px;
+    top: 90px;
     left: 15px;
 }
 
@@ -184,7 +207,7 @@ input::placeholder{
     position: absolute;
     height: 30px;
     width: 120px;
-    top: 80px;
+    top: 90px;
     left: 157px;
 }
 
@@ -196,7 +219,7 @@ input::placeholder{
     position: absolute;
     height: 30px;
     width: 120px;
-    top: 80px;
+    top: 90px;
     right: 15px; 
 }
 
@@ -205,7 +228,7 @@ input::placeholder{
     position: absolute;
     width: 403px;
     left: 15px;
-    top: 140px;
+    bottom: 395px;
 }
 
 .sex{
