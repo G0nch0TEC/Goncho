@@ -4,7 +4,7 @@ document.getElementById('IniciarSesion').addEventListener('submit', function(eve
     const password = document.getElementById('interes2').value;
 
     if (username === "Gonzalo" && password === "1234") {
-        window.location.href="../index.html";
+        window.location.href="../../index.html";
     } else {
         alert("Contraseña o Usuario Incorrecto")
         interes1.value = "";
