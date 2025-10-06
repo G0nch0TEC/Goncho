@@ -8,26 +8,34 @@
     <link rel="shortcut icon" href="assets/image/television.ico" type="television.ico">
 </head>
 <body background="assets/image/star-wars.jpg">
+    <div class="Container">
         <div class="login-box">
-            <div class="inicio">
-                <p id="login">INICIAR SESION</p>
-            </div>
+            <h1>INICIAR SESION</h1>
+
             <form id="IniciarSesion">
-                <div class="Usuario">
+
+                <div class="form-group">
                     <label for="">Usuario<br></label>
-                    <input type="text" id="interes1" required>
-                    <img src="assets/image/Male User.png" alt="men" id="man"> 
+                    <div class="input-box">
+                        <img src="assets/image/male-user.png" alt="" class="icon">
+                        <input type="text" id="user" required>
+                    </div>
                 </div>
-                <div class="Contraseña">
-                    <label  class="Label2">Contraseña<br></label>
-                    <input type="password" id="interes2" required>
-                    <img src="assets/image/Lock.png" alt="llave" id="candado">
+
+                <div class="form-group">
+                    <label>Contraseña<br></label>
+                    <div class="input-box">
+                        <img src="assets/image/lock.png" alt="" class="icon">
+                        <input id="pass" type="password" required>
+                    </div>
                 </div>
-                <button type="submit" class="boton">Iniciar Sesion</button>
+
                 <a class="enlace">¿Olvidastes tu contraseña?</a>
+                <button type="submit">Iniciar Sesion</button>
                 <a class="enlace2" href="Register/register.html">¿Aun no tienes una cuenta?</a>
             </form>
         </div>
+    </div>    
     <script src="assets/js/main.js"></script>
 </body>
 </html>

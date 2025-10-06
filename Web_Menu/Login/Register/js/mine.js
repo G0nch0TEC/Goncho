@@ -14,3 +14,18 @@ for(let i=añoActual; i >= 1900; i--){
     option.textContent = i;
     añoSelect.appendChild(option);
 }
+
+function marcarGenero(radio) {
+  if (radio.checked) {
+    if (radio.wasChecked) {
+      radio.checked = false;
+      radio.wasChecked = false;
+    } else {
+      radio.wasChecked = true;
+    }
+  }
+  const radios = document.getElementsByName('genero');
+  radios.forEach(r => {
+    if (r !== radio) r.wasChecked = false;
+  });
+}

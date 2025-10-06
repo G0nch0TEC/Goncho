@@ -24,7 +24,7 @@
                     <input type="text" id="interes3" placeholder="Usuario" required>
                 </div>
                 <div class="Correo">
-                    <input type="email" id="interes4" placeholder="Numero o Correo" required>
+                    <input type="email" id="interes4" placeholder="Correo Electronico" required>
                 </div>
                 <div class="Pass">
                     <input type="password" id="interes5" placeholder="Contraseña Nueva" required>
@@ -55,13 +55,13 @@
             <span class="padre">
                 <span class="sex">
                     <label for="mujer" class="label2">MUJER
-                        <input type="radio" class="int"> 
+                        <input type="radio" class="int" name="genero" onclick="marcarGenero(this)"> 
                     </label>
                     <Label for="hombre" class="label2">HOMBRE
-                        <input type="radio" class="int">
+                        <input type="radio" class="int" name="genero" onclick="marcarGenero(this)">
                     </Label>
-                    <label for="machete" class="label2" id="machete">MACHETE
-                        <input type="radio" class="int">
+                    <label for="Otro" class="label2" id="machete">Otro
+                        <input type="radio" class="int" name="genero" onclick="marcarGenero(this)">
                     </label>
                 </span>
             </span>
